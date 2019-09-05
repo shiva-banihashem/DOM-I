@@ -112,7 +112,7 @@ navtest = Object.values(siteContent.nav);
 console.log(navtest);
 for (i = 0; i < myataglist.length; i++) {
   myataglist[i].style.backgroundColor = "red";
-  // myataglist[i].textContent = navtest[i];
+  
 }
 //Stretch Button
 let newbutton = document.createElement('button');
@@ -137,10 +137,3 @@ console.log(button1);
 button1.addEventListener("click",changeH1);
 
 
-//  
-//Stretch addEventListner
-//  document.body.addEventListener("click", event => {
-//   if (event.target.nodeName == "BUTTON") {
-//     event.target.textContent= 'You Clicked ME!!!';
-//   }
-// });
